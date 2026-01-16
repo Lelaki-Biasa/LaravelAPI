@@ -22,7 +22,6 @@ return new class extends Migration
                 'pending',
                 'open',
                 'in_progress',
-                'progress',
                 'completed'
             ])->default('pending');
             $table->enum('priority', [
